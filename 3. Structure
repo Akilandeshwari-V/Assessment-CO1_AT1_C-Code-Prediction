@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+struct Student {
+    int id;
+    float mark;
+};
+
+int main() {
+    struct Student s = {101, 85.5};
+
+    printf("%d %.1f", s.id, s.mark);
+
+    return 0;
+}
+
+
+
+
+
+Prediction
+101 85.5
