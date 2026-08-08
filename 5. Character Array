@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    char str[] = "DATA";
+
+    printf("%c %c %c", str[0], str[2], str[3]);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+Prediction
+D T A
